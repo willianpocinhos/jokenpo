@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOKENPO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>JOKENPO</h1>
+        <main id="game">
+
+            <div id="battle">
+                <div class="left-move">
+                    <h3>VOCÊ</h3>
+                    <figure>
+                        <img class="userChoice" src="./assets/paper-left.png" alt="left-move-img">
+                    </figure>
+                </div>
+                <div class="right-move">
+                    <h3>ADVERSÁRIO</h3>
+                    <figure>
+                        <img class="machineChoice" src="./assets/scissors-right.png" alt="right-move-img">
+                    </figure>
+                </div>
+            </div>
+
+            <div id="message-area">
+                <p class="message"></p>
+            </div>
+
+            <div id="elements">
+                <h3>Escolha sua jogada:</h3>
+                <div id="buttons">
+                    <button onclick="userChoice('rock')"><img src="./assets/rock-left.png" alt="rock"></button>
+                    <button onclick="userChoice('paper')"><img src="./assets/paper-left.png" alt="paper"></button>
+                    <button onclick="userChoice('scissors')"><img src="./assets/scissors-left.png" alt="scissors"></button>
+                </div>
+            </div>
+
+            <div id="score">
+                <div>
+                    <span class="you">VOCÊ</span>
+                    <span class="user-points">0</span>
+                    <span class="x">X</span>
+                    <span class="machine-points">0</span>
+                    <span class="pc">ADVERSÁRIO</span>
+                </div>
+                <button class="restart">Zerar placar</button>
+            </div>
+
+        </main>
+        <footer>
+            <p>Desenvolvido por <a href="https://www.linkedin.com/in/willian-p-santos/" target="_blank">Willian P
+                    Santos</a></p>
+        </footer>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
