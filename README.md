@@ -1,13 +1,11 @@
 <h1>JOKENPO GAME</h1>
+<h2>🎮 COMO JOGAR</h2>
+<p>Neste jogo você joga contra o computador. Basta selecionar um dos elementos e torcer para vencer. Divirta-se!</p>
 <p>
-  O jogo apresenta mensagens dinâmicas conforme você ganha ou perde uma jogada para tornar a experiência do usuário mais descontraída.
+  Para tornar a experiência do usuário mais descontraída, o jogo apresenta mensagens dinâmicas conforme você ganha ou perde uma jogada.
   <br>
   Caso deseje, é possível reiniciar o jogo clicando no botão 'Zerar placar'.
 </p>
-
-<h2>🎮 COMO JOGAR</h2>
-<p>Neste jogo você joga contra o computador. Basta selecionar um dos elementos e torcer para vencer. Divirta-se!</p>
-<br>
 
 <h2>📋 REGRAS DO JOGO</h2>
 <p>
