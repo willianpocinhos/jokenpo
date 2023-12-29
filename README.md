@@ -4,6 +4,8 @@
 <p>
   Para tornar a experiência do usuário mais descontraída, o jogo apresenta mensagens dinâmicas conforme você ganha ou perde uma jogada.
   <br>
+  Cada ponto marcado é contabilizado no placar, tanto para o usuário quanto para o computador.
+  <br>
   Caso deseje, é possível reiniciar o jogo clicando no botão 'Zerar placar'.
 </p>
 
